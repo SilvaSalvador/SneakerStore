@@ -415,7 +415,6 @@ def editar_perfil(request):
 
         elif check_empregado_loja(user):
             empregadoloja = EmpregadoLoja.objects.get(user=user)
-cd
             empregadoloja.morada = morada
             empregadoloja.telemovel = telemovel
 
